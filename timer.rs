@@ -1,20 +1,5 @@
 use std::{thread, time};
 
-/*
-fn main() {
-    let mut counter = 0;
-    while true {
-        productive_time();
-        break_time();
-        /*
-        timer();
-        counter += 1;
-        pomo_break(counter);
-         */
-    }
-}
- */
-
 pub fn productive_time() {
     print!("Los geht's! ");
     println!(
@@ -41,22 +26,3 @@ pub fn timer(lenght: i32) {
         thread::sleep(one_min);
     }
 }
-
-/*
-fn pomo_break(counter: i32) {
-    println!(
-        "Super, du hast bereits {} Pomodoros abgeschlossen!",
-        counter
-    );
-
-    let five_min = time::Duration::from_secs(300);
-    let fifteen_min = time::Duration::from_secs(900);
-
-    if (counter % 4) == 0 {
-        println!(" Jetzt ist Zeit für eine lange Pause!");
-        thread::sleep(fifteen_min);
-    } else {
-        thread::sleep(five_min);
-    }
-}
- */

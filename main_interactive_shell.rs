@@ -1,6 +1,5 @@
 mod timer;
 use std::io::Write;
-use std::time;
 
 // Prompt to Shell
 fn prompt(name: &str) -> String {
