@@ -1,0 +1,21 @@
+[package]
+name = "Rusty-Tomato-Timer"
+version = "0.1.0"
+authors = ["Moritz M. <git001@t-online.de>"]
+#edition = "2021"
+description = "CLI Tomato-Timer in interactive shell."
+#license = "MIT"
+#homepage = ""
+repository = "https://github.com/mitgitumgekippt/rusty_tomato_timer"
+#license-file = "LICENSE"
+keywords = ["pomodoro", "tomato-timer"]
+categories = ["command-line-utilities"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cargo_toml = "0.6.4"
+toml_edit = "0.1"
+toml = "0.5"
+figlet = "0.1.5"
